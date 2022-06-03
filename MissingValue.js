@@ -29,7 +29,7 @@ function findMissVal( ar ){
         console.log("missing value: ",missing)
     }
     else{
-        console.log("missing value: ", min-1, " or ", max+1)
+        console.log("missing value is either first value:",min-1," or last value:", max+1)
     }
 
     
