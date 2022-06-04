@@ -1,20 +1,9 @@
 function findMissVal( ar ){
 
     let a = ar.length;
-    let min  = ar[0];
-    let max = ar[0];
+    let min  = Math.min(...ar)
+    let max =Math.max(...ar);
     let tot = 0;
-   
-    ar.forEach( i=>{
-        tot += i;
-
-        if(min > i){
-            min = i;
-        }
-        else if(max < i){
-            max = i;
-        }
-    })
 
     let OriginalArray =[] ;
     
