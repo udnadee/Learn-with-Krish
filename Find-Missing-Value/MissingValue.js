@@ -9,17 +9,17 @@ function findMissVal( ar ){
         tot += i;
 
         if(min > i){
-            min = i
+            min = i;
         }
         else if(max < i){
-            max = i
+            max = i;
         }
     })
 
     let OriginalArray =[] ;
     
     for (let i = min; i <= max; i++) {
-        OriginalArray.push(i)
+        OriginalArray.push(i);
     }
     
     let b = OriginalArray.length;
@@ -29,8 +29,12 @@ function findMissVal( ar ){
         console.log("missing value: ",missing)
     }
     else{
-        console.log("missing value: ", min-1, " or ", max+1)
+        console.log("missing value is either first value: ",min-1," or last value: ", max+1)
     }
 
     
 }
+
+let val = [1,2,3,4,5,6]
+
+findMissVal(val)
