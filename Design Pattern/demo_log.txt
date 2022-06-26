@@ -1,0 +1,4 @@
+Deposit (0001): 80.5$
+Deposit (0002): 100.0$
+Deposit (0001): 30.5$
+Withdraw (0002): 50.0$
